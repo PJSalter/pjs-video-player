@@ -1,0 +1,10 @@
+:root{
+    --plum-clr: #AD23AD;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--plum-clr);
+}

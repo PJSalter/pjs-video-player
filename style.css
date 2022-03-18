@@ -1,5 +1,6 @@
 :root{
     --plum-clr: #AD23AD;
+    --grey-blue: #BBD8DE;
 }
 
 body{
@@ -7,4 +8,15 @@ body{
     padding: 0;
     margin: 0;
     background-color: var(--plum-clr);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    color: var(--grey-blue);
+    font-size: 8rem;
 }

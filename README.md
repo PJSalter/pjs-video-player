@@ -2,6 +2,8 @@
 
 #### :dvd: A task by Lyfta to create a feature for my own video player.
 
+![back-to-the-future](https://user-images.githubusercontent.com/45575016/159099111-44781da2-bfe2-4609-9782-440b514d3c31.gif)
+
 # :zap: :battery: requirements:
 
 - [x] Take a look at an example of a video player such as what Netflix or Youtube use.
@@ -9,6 +11,8 @@
 - [ ] On a new GitHub repo, create an issue for every user story.
 - [ ] Decide which user story you are going to focus on for the take-home challenge.
 - [ ] Attempt to complete the selected user story. Do not attempt to complete the entire video player.
+
+<img src="https://raw.githubusercontent.com/jglovier/gifs/gh-pages/boom/cat-explosion.gif" alt="cat-storm-in-motion">
 
 # User Stories :thought_balloon:
 - #### :sound: As a user I wish to play a feature video of choosing.
@@ -22,4 +26,4 @@
 - #### :carousel_horse: drop down menu which would contain search, shuffle button, new & popular
 - #### :dragon_face: My List feature for favourite videos.
 
-
+# 📹 [Live player hosted here](https://pjsalter.github.io/pjs-video-player) 📼

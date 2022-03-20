@@ -1,6 +1,10 @@
 :root{
     --plum-clr: #AD23AD;
     --grey-blue: #BBD8DE;
+    --silver-white: #fff;
+    --aquamarine-green: mediumaquamarine;
+    --antique-white: antiquewhite;
+    --pale-pink: #d11a9d;
 }
 
 body{
@@ -42,7 +46,7 @@ h1{
     max-width: 23rem;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: var(--antique-white);
     border-top-left-radius: 12rem;
     border-top-right-radius: 12rem;
     width: 100%;
@@ -50,8 +54,8 @@ h1{
   }
 
 .controls {
-    background: mediumaquamarine;
-    color: #fff;
+    background: var(--aquamarine-green);
+    color: var(--silver-white);
     margin-left: auto;
     margin-right: auto;
     max-width: 41.5rem;
@@ -70,19 +74,19 @@ h1{
   }
   
   .controls .limitOfVid {
-    color: #fff;
+    color: var(--silver-white);
     font-weight: bold;
     margin-left: 10px;
   }
 
  i.fas.fa-play {
     content: 'f04b';
-    color: #28a745;
+    color: var(--pale-pink);
 }
 
  i.fas.fa-stop {
     content: 'f04d';
-    color: #dc3545;
+    color: var(--pale-pink);
 }
 
 input[type='reach'] {

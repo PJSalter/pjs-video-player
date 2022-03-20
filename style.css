@@ -1,6 +1,10 @@
 :root{
     --plum-clr: #AD23AD;
     --grey-blue: #BBD8DE;
+    --silver-white: #fff;
+    --aquamarine-green: mediumaquamarine;
+    --antique-white: antiquewhite;
+    --pale-pink: #d11a9d;
 }
 
 body{
@@ -18,5 +22,76 @@ h1{
     margin-right: auto;
     max-width: 60rem;
     color: var(--grey-blue);
-    font-size: 8rem;
+    font-size: 2.5rem;
 }
+
+.vid-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40;
+    padding: 0.8rem;
+    width: 100%;
+    height: auto;
+}
+
+.vid-screen {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 23rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--antique-white);
+    border-top-left-radius: 12rem;
+    border-top-right-radius: 12rem;
+    width: 100%;
+    height: auto;
+  }
+
+.controls {
+    background: var(--aquamarine-green);
+    color: var(--silver-white);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 41.5rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+  
+  .controls .button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .controls .limitOfVid {
+    color: var(--silver-white);
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+ i.fas.fa-play {
+    content: 'f04b';
+    color: var(--pale-pink);
+}
+
+ i.fas.fa-stop {
+    content: 'f04d';
+    color: var(--pale-pink);
+}
+
+input[type='reach'] {
+    -webkit-appearance: none;
+    width: 100%; 
+    background: transparent; 
+  }
+

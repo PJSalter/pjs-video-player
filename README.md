@@ -8,9 +8,9 @@
 
 - [x] Take a look at an example of a video player such as what Netflix or Youtube use.
 - [x] Break up every part of the video player into a separate user story.
-- [ ] On a new GitHub repo, create an issue for every user story.
-- [ ] Decide which user story you are going to focus on for the take-home challenge.
-- [ ] Attempt to complete the selected user story. Do not attempt to complete the entire video player.
+- [x] On a new GitHub repo, create an issue for every user story.
+- [x] Decide which user story you are going to focus on for the take-home challenge.
+- [x] Attempt to complete the selected user story. Do not attempt to complete the entire video player.
 
 <img src="https://raw.githubusercontent.com/jglovier/gifs/gh-pages/boom/cat-explosion.gif" alt="cat-storm-in-motion">
 
@@ -25,5 +25,12 @@
 - #### :performing_arts: a menu of different categories, such as genre like horror, action, comedy.
 - #### :carousel_horse: drop down menu which would contain search, shuffle button, new & popular
 - #### :dragon_face: My List feature for favourite videos.
+- #### ⏲️ timer to show how long the video plays by minutes and seconds.
+
+# Focus:
+
+- #### User may click on the video itself to click play and pause.
+- #### I also added the option for a user to click play and stop icons. relates [issue #2](https://github.com/PJSalter/pjs-video-player/issues/2)
+- #### Created functionality of a timer in the controls to show how long the video plays in minutes and seconds. relates [issue #13](https://github.com/PJSalter/pjs-video-player/issues/13)
 
 # 📹 [Live player hosted here](https://pjsalter.github.io/pjs-video-player) 📼

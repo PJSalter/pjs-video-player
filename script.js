@@ -3,6 +3,9 @@
 // picking up the video element with DOM Manipulation.
 const graphicalTranformClip = document.querySelector('video');
 
+// picking up the play icon
+const playMe = document.getElementById('play-me');
+
 // picking up the stop button icon from the controls
 const stopMe = document.getElementById('stop-me');
 

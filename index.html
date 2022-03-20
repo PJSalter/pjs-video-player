@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/95201812b6.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
-    <link href="stream.css" rel="stylesheet">
     <title>pjs-video-player</title>
 </head>
 <body>
 
     <h1>PJS Video Player</h1>
-    
-    <video src="video-clip/cool-graphic-transform-cube.mp4" id="graphic-vid" class="vid-screen" poster="video-clip/play-me.jpeg">
 
+    <section class="vid-container">
+    
+    <video src="video-clip/cool-graphic-transform-cube.mp4" id="graphic-vid" class="vid-screen">
+    <!-- may use a poster image later poster="video-clip/play-me.jpeg" -->
     </video>
 
     <!-- starting with the creation of the controls of play/pause button -->
-    <section class="controls">
+    <div class="controls">
 
          <button class="button" id="play-me">
-            <i class="fa-solid fa-play"></i>
+            <i class="fas fa-play"></i>
          </button>
 
          <button class="button" id="stop-me">
-            <i class="fa-solid fa-stop"></i>
+            <i class="fas fa-stop"></i>
          </button>
 
-         <input type="reach" id="stream" class="stream" min="0" max="100" step="0.1" value="0">
+         <input type="reach" min="0" max="100" step="0.1" value="0">
          <span class="limitOfVid" id="limitOfVid">00:00</span>
-    </section>
+        </div>
+
+        </section>
     <script src="script.js"></script>
 </body>
 </html>

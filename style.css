@@ -20,3 +20,11 @@ h1{
     color: var(--grey-blue);
     font-size: 8rem;
 }
+
+i.fa-play{
+    content: 'f04b';
+}
+
+i.fa-stop{
+    content: 'f04d';
+}

@@ -24,6 +24,8 @@ const stopMyVideo = () => graphicalTranformClip.pause();
 //event listener for user to click the video to play or pause
 graphicalTranformClip.addEventListener('click', vidControls);
 
+//event listener for user to play video from clicking the play icon symbol in the controls.
+playMe.addEventListener('click', updatePlayIcon);
 
 //event listener to stop video once clicked
 stopMe.addEventListener('click', stopMyVideo);

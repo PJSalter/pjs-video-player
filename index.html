@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/95201812b6.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
+    <link href="stream.css" rel="stylesheet">
     <title>pjs-video-player</title>
 </head>
 <body>
@@ -18,9 +19,17 @@
 
     <!-- starting with the creation of the controls of play/pause button -->
     <section class="controls">
-         <button class="play-button" id="play-me">
 
+         <button class="button" id="play-me">
+            <i class="fa-solid fa-play"></i>
          </button>
+
+         <button class="button" id="stop-me">
+            <i class="fa-solid fa-stop"></i>
+         </button>
+
+         <input type="reach" id="stream" class="stream" min="0" max="100" step="0.1" value="0">
+
     </section>
     <script src="script.js"></script>
 </body>

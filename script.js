@@ -1,5 +1,11 @@
 //***************** JavaScript Here ********************//
 
+// main features focused on:
+// click on video click screen to play and stop video as an option to the user.
+// user will be able to play video by clicking on the play icon within the controls.
+// user will be able to stop the video by clicking on the stop video icon from the controls.
+// created a timer within the right hand side of the controls, user will be able to see the time duration that has been played by video in minutes and seconds.
+
 // picking up the video element with DOM Manipulation.
 const graphicalTranformClip = document.querySelector('video');
 
